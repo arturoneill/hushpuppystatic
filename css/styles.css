@@ -1,0 +1,604 @@
+/*-----------------HTML AND BODY TAGS------------------------------------------------------*/
+
+html{
+	position:relative;
+	min-height:100%;
+}
+body{
+    /* Fix indentation here*/
+    font-family:'Nunito', sans-serif;
+	margin-bottom: 50px;
+	
+    
+    /*background-size:cover;*/
+	
+}
+
+.container {
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+
+/*Remove excess white space here and elsewhere.*/
+
+
+
+	
+
+
+
+
+
+.landing-block-title {
+	padding-top:15vh;
+ align-items: center;
+	text-align:center;
+font-style:italic;
+	
+	text-decoration:none;
+	font-size:40px;
+	font-weight:800;
+}
+
+.landing-block-title {
+	text-decoration:none;
+}
+
+.restaurant-landing {
+
+
+}
+
+.errand-landing {
+
+
+}
+
+	
+	h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    text-transform:uppercase;
+    font-size:32px;
+    margin-top: 20px;
+   
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+
+
+.category-tile {
+    position: relative;
+    border: 0px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    text-transform: uppercase;
+	text-style:italic;
+    background-color: #000;
+    color: #fff;
+    opacity: .7;
+}
+
+#menu-categories-title {
+	font-weight:800;
+	margin-top:10px;
+	font-style:italic;
+	
+}
+
+.description-text {
+	font-size:1.2em;
+	margin-bottom:10px;
+}
+
+
+/* When developing client-facing software keep all comments and documentation clean because you never*/
+/* know if your client will see your source code, creating an embarassing situation for your company.*/
+/*-----------------FIREBASE SHIT---------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+li > li {
+list-style-type:none;
+margin-left:10px;
+}
+
+/*Do not commit commented-out code. If you need to remove code but hang on to those changes, then*/
+/* just delete it. The old code will be retrievable in revision control.*/
+
+/*#container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.clearfix {
+  clear: both;
+}
+.hidden {
+  display: none;
+}
+#user-info {
+  border: 1px solid #CCC;
+  clear: both;
+  margin: 0 auto 20px;
+  max-width: 400px;
+  padding: 10px;
+  text-align: left;
+}
+#photo-container {
+  background-color: #EEE;
+  border: 1px solid #CCC;
+  float: left;
+  height: 80px;
+  margin-right: 10px;
+  width: 80px;
+}
+#photo {
+  height: 80px;
+  margin: 0;
+  width: 80px;
+}
+@media (max-width: 300px) {
+  #photo-container,
+  #photo {
+    height: 40px;
+    width: 40px;
+  }
+}*/
+	
+/*-----------------FOOTER---------------------------------------------------------------------*/
+/*.footer {
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+.navbar-fixed-bottom {
+	border-width:0;
+	padding-top:15px;
+}
+*/
+
+
+.panel-footer {
+    border: 0;
+}
+
+
+footer {
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow:hidden;
+}
+
+
+/*-----------------Header----------------------------------------------------------------------*/
+#header-nav{
+    background-color: white;
+    border: 0px;
+    
+}
+
+.navbar-default .navbar-brand {
+    font-size: 1.75em;
+	color: black;
+   font-weight: 800;
+	font-family: 'Source-Sans-Pro', sans-serif;
+	    text-shadow: 2px 2px 0px #75daff;
+}
+
+.navbar {
+	margin-bottom:5px;
+}
+
+#collapsable-nav {
+    background-color:white;
+	
+	
+    
+}
+
+/*----NAVBAR LIST ITEMS------------------------------*/
+
+
+#nav-list{
+    text-align:center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-style: italic;
+    color: white;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+li:hover, li:focus, li:active {
+    background-color: #75daff;
+	
+
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+
+	 
+	   
+
+/*----NAVBAR TOGGLE BUTTON------------------------------*/
+
+button.navbar-toggle {
+    background-color:white;
+    border:0px;
+    
+}
+    
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color:white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:red;
+}
+
+
+    
+    
+
+
+
+/*-----------------CIRCLES-----------------*/
+
+
+.login {
+    width: 300px;
+    height: 200px;
+    margin-top:75px;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+
+    }
+.circle {
+	background-color:white;
+    border-radius: 50%; 
+    border-color: white;
+    border-width: 10px;
+	 width:150px;
+	 height:150px;
+	 ;
+    }
+
+
+
+div.circle {
+	
+	color:white;
+	text-transform:uppercase;
+	font-weight:800;
+
+	}
+
+div.circle:hover {
+	
+	
+	color:black;
+	text-transform:uppercase;
+	font-weight:800;
+
+	}
+a.circle_link {
+
+    display:inline-block;
+    width: 100%;
+    line-height: 150px;
+    color:white;
+}
+
+/*div>a {
+	   color:white;
+}
+*/
+	
+div>a:hover, div>a:focus, div>a:active {
+	   color:black;
+	text-decoration:none;
+}
+
+   
+/*Good to see you coding using responsive design!*/
+/* Consider splitting up this file into one stylesheet per screen size.*/
+/*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
+
+@media screen and (min-width: 767px){
+	
+	.landing-block-title {
+		color:black;
+	}
+	
+		.landing-block1 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/circlelogogray.png');
+}
+	
+.landing-block2 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/circlelogogray.png');
+}
+	
+	.landing-block1:hover, .landing-block1:focus, .landing-block1:active {
+	/*opacity:0.3;*/
+	/*background: rgba(255, 255, 255, .8);*/
+		background-attachment: fixed;
+    background-position: center;
+	background-image: url('/courier-app/pictures/circlelogotransparent.png');
+	
+}
+
+.landing-block2:hover, .landing-block2:focus, .landing-block2:active {
+	/*opacity:0.3;*/
+	/*background: rgba(255, 255, 255, .8);*/
+	background-attachment: fixed;
+    background-position: center;
+	background-image: url('/courier-app/pictures/circlelogotransparent.png');
+	
+}
+	
+	
+	
+	#cyclist {
+
+    top: 95%;
+    left:95%;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-top: -60px; /*set to a negative number 1/2 of your height*/
+    margin-left: -60px; /*set to a negative number 1/2 of your width*/
+   background-image: url('/courier-app/pictures/hushpuppydude.png');
+    background-color: white;
+    position:fixed;
+
+}
+  
+ #collapsable-nav {
+  background-color:white;
+  
+        }
+   
+     li {
+        color:black;
+	     font-style: italic;
+        
+    }
+	
+ .navbar-nav ul li a:hover, .navbar-nav ul li a:focus, .navbar-nav ul li a:active {
+	   color:white;
+	 
+	   
+	}
+	
+li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
+        background-color:#75daff;
+        color: white;
+	   
+    
+}
+   li:hover:nth-child(2), li:focus:nth-child(2), li:active:nth-child(2) {
+        background-color:fuchsia;
+        color: white;
+	   opacity:0.75;
+    
+}
+        li:hover:nth-child(3), li:focus:nth-child(3), li:active:nth-child(3) {
+        background-color:red;
+        color: white;
+		opacity:0.75;
+    
+}
+
+.panel-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+    
+
+   
+/*-------------ARRANGING CIRCLES IN PYRAMID-------------------------------------*/
+    
+    .circle:nth-child(2) {
+	    background-color:fuchsia;
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+    }
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+    .circle:nth-child(3) {
+	    background-color:DodgerBlue;
+        position: absolute;
+        top: -70px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+    
+    .circle:nth-child(4) {
+	    background-color:#0ebd94;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+	.circle:hover:nth-child(4), .circle:focus:nth-child(4), .circle:active:nth-child(4){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+}
+
+#imgBubble {
+	position: absolute;
+        top: -104px;
+        right: -72px;
+	opacity:0.75;
+}
+	
+
+
+/*-----------------------SMALL SCREEN SIZES------------------------*/
+@media screen and (max-width: 767px){
+	
+	.landing-block-title {
+		color:white;
+	}
+	
+	.landing-block1 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/circlelogo.png');
+}
+	.landing-block2 {
+	min-height:50%;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+	background-image: url('/courier-app/pictures/bluebiker.png');
+}	
+	
+		.landing-block1:hover, .landing-block1:focus, .landing-block1:active {
+	/*opacity:0.3;*/
+	/*background: rgba(255, 255, 255, .8);*/
+	background:#75daff;
+	
+}
+
+.landing-block2:hover, .landing-block2:focus, .landing-block2:active {
+	/*opacity:0.3;*/
+	/*background: rgba(255, 255, 255, .8);*/
+	background:#75daff;
+	
+	
+#cyclist {
+	display:none;
+	}
+		
+	
+	.tricircle {
+    width: 300px;
+    height: 400px;
+    margin-top:25px;
+    margin-left:auto;
+    margin-right: auto;
+    position: relative;
+
+    }
+}
+
+
+
+
+	
+/*---------------------------ARRANGING CIRCLES VERTICALLY-------------------------------------*/	
+	 .circle:nth-child(2) {
+	    background-color:fuchsia;
+        position: absolute;
+        top: -35px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(2), .circle:focus:nth-child(2), .circle:active:nth-child(2){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+    .circle:nth-child(3) {
+	    background-color:DodgerBlue;
+        position: absolute;
+        top: 90px;
+        left: 75px;
+    }
+	.circle:hover:nth-child(3), .circle:focus:nth-child(3), .circle:active:nth-child(3){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+    
+    .circle:nth-child(4) {
+	    background-color:#0ebd94;
+        position: absolute;
+       top: 215px;
+       left: 75px;
+    }
+	.circle:hover:nth-child(4), .circle:focus:nth-child(4), .circle:active:nth-child(4){
+	    background-color:white;
+		color:black;
+		opacity:1;
+    }
+	
+#imgBubble {
+	position: absolute;
+        top: 183px;
+        left: 165px;
+	opacity:0.75;
+}
+}
+
+
+/*-----------------------EXTRA SMALL SCREEN SIZES------------------------*/
+
+	
+}
+	
+	

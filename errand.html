@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+   
+  
+  
+  
+  <title>Order Form</title>
+  <!-- bootstrap & fontawesome css -->
+  <link href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" />
+
+  <!-- BootstrapValidator CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <!-- BootstrapValidator JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+  
+  <!-- Animated Loading Icon -->
+  <style type="text/css">
+  .glyphicon-refresh-animate {
+      -animation: spin .7s infinite linear;
+      -webkit-animation: spin2 .7s infinite linear;
+  }
+  @-webkit-keyframes spin2 {
+      from { -webkit-transform: rotate(0deg);}
+      to { -webkit-transform: rotate(360deg);}
+  }
+  @keyframes spin {
+      from { transform: scale(1) rotate(0deg);}
+      to { transform: scale(1) rotate(360deg);}
+  }
+  </style>
+  
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,800" rel="stylesheet">
+  
+</head>
+
+<body>
+  
+
+
+   <header><nav id ="header-nav" class="navbar navbar-default">
+    <div class="container">
+        <div class ="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a href="index.html"><div class="navbar-brand" href="index.html">HUSHPUPPY COURIER</div></a>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li><a href="index.html"> Home</a></li>
+              <li><a href="http://hushpuppycourier.bigcartel.com/"> Store</a></li>
+              <li><a href="index.html"> About</a></li>
+        </ul>
+        
+        
+        </div>
+    </div>
+        </nav>
+    </header>
+
+    
+     <div class="container"  id="background">
+      
+
+      
+    <section class = "col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            
+           
+        <div class="content-section" >
+         <h2>Personal Courier and Errand Services</h2>
+          <p><span>Call </span><span><a href="tel:352-325-1045">(352) 325-1045</a></span> </p>
+          <p><span>Email </span><span><a href="mailto:hushpuppycourier@gmail.com">hushpuppycourier@gmail.com</a></span> </p>
+        <p><span>Or, use the form below.</span></p>
+       
+        
+           
+           
+      
+          <div>
+               <a data-toggle="collapse" href="#collapserates"> <p>
+                 <span style="color:red;">Rates</span>
+            </p>
+            </a>
+              <div id="collapserates" class="panel-collapse collapse">
+            <p><strong>
+          <ul>
+            <li><u>Standard</u>: $3 (pick-up and drop-off within 2 hours)</li>
+            <li><u>Rush</u>: $5 (pick-up and drop-off ASAP within 1 hour)</li>
+            <li><u>Extras</u>:
+  <li>+$3 Extra stop or round-trip </li>
+<li>+$3 Shopping/waiting time (after first 10min grace)</li>
+            </li>
+              </ul>
+<p> Call or email to ask about oversize/cargo delivery. Check out our map to search for places and verify 
+  addresses within our regular delivery zone. We generally accept deliveries “on the border." 
+  Delivery confirmation available upon request.</p></div>
+         </div>
+             </div>
+       
+      </section>
+        
+        
+        
+        
+      <section class="container-fluid">   
+      
+  <form class="form-vertical" role="form" id="test-form" style="background:white;">
+     
+     
+      <section class = "col-xs-12 col-sm-6 col-md-4 col-lg-4 text-left">
+        <div class="content-section">
+   
+     
+  
+    <div class="form-group">
+      <label class="control-label">Name</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <input type="text" class="form-control" name="name" placeholder="Your Name"/>
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="form-group">
+      <label class="control-label">Phone Number</label>
+      <div class=" inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label">Email</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <input type="text" class="form-control" name="email" placeholder="name@domain.com"/>
+        </div>
+      </div>
+    </div>
+    
+    
+         
+   
+
+    <div class="form-group">
+      <label class="control-label">Pick-Up Location</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="pickupAddress" placeholder="Pick-up address and name" rows="2" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+         
+       <div class="form-group">
+      <label class="control-label">Drop-Off Location</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="dropoffAddress" placeholder="Enter drop-off name and address here" rows="2" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>       
+           
+         </div>
+         </section>
+      
+      <section class = "col-xs-12 col-sm-6 col-md-4 col-lg-4 text-left">
+   
+      <div class="content-section">
+    
+    
+      
+   <!-- <div class="form-group">
+      <label class="control-label"> Drop-Off Name (optional)</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <input type="text" class="form-control" name="dropoffName" placeholder="Drop-Off Name"/>
+        </div>
+      </div>
+    </div>-->
+
+ 
+  <div class="form-group">
+      <label class="control-label">What are we picking up?</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="orderContents" placeholder="Please detail your order" rows="2" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+         
+  <div class="form-group">
+      <label class="control-label">Level of Service</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+           <select type="text" class="form-control" name="serviceLevel" placeholder="Level of Service">
+          <optgroup >
+           <option value="when do you need it?" disabled selected>How fast?</option>
+          <option value="rush">rush ($5)</option>
+          <option value="standard">standard ($3) </option>
+          <option value="today">scheduled (please specify in notes)</option>
+          </optgroup>
+          </select>
+          <!--<input type="text" class="form-control" name="serviceLevel" placeholder="Level of Service" style="resize: vertical;"/>-->
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <!--<div class="form-group">
+      <label class="col-lg-6 control-label">Do you need payment upfront?</label>
+      <div class="col-lg-6 inputGroupContainer">
+        <div class="input-group">
+          <input type="text" class="form-control" name="payUpfront" placeholder="yes or no"/>
+        </div>
+      </div>
+    </div>
+-->
+    
+    <div class="form-group">
+      <label class="control-label">How do you want to pay?</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <!--<input type="text" class="form-control" name="payMethod" placeholder="Payment Method"/>-->
+          <select type="text" class="form-control" name="payMethod" placeholder="Cash or card?">
+          <optgroup >
+           <option value="Payment Method?" disabled selected>Payment Method?</option>
+          <option value="cash">cash</option>
+          <option value="card">creditcard (square)</option>
+          <!--<option value="online">paypal/venmo</option>-->
+          </optgroup>
+          </select>
+        </div>
+      </div>
+    </div>
+    
+     <div class="form-group">
+      <label class="control-label">Notes</label>
+      <div class="inputGroupContainer">
+        <div class="input-group col-lg-10">
+          <textarea type="text" class="form-control" name="notes" placeholder="Anything else?" rows="3" style="resize: vertical;"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-lg-9 col-lg-offset-3">
+        <button type="submit" class="btn btn-default" id="postForm">Submit</button>
+      </div>
+    </div>
+         </div>
+ 
+      </section>
+    
+        </form>
+        </section>
+        
+       
+       
+      </div>
+      
+      
+      
+    
+   
+ 
+ 
+</body>
+
+<footer>
+<script src="js/validation-functions.js"></script>
+   <p style = "padding-top:15px;" class="text-center">© Hushpuppy Courier 2017</p>
+</footer>
+  
+</html>

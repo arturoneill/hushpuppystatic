@@ -348,10 +348,7 @@ div>a:hover, div>a:focus, div>a:active {
 	
 	
 	
-	#main-content {
-	
-	height:70vh;
-}
+
 	
 	.landing-block-title {
 		color:black;
@@ -505,6 +502,12 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 
 /*-----------------------SMALL SCREEN SIZES------------------------*/
 @media screen and (max-width: 767px){
+	
+	
+		#main-content {
+	
+	height:70vh;
+}
 	
 	.landing-block-title {
 		color:black;

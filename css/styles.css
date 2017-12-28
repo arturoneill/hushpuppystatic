@@ -28,7 +28,10 @@ body{
 	
 
 
-
+#main-content {
+	
+	height:90vh;
+}
 
 
 .landing-block-title {
@@ -342,6 +345,13 @@ div>a:hover, div>a:focus, div>a:active {
 /*----------------------------LARGE SCREEN ONLY---------------------------------*/ 
 
 @media screen and (min-width: 767px){
+	
+	
+	
+	#main-content {
+	
+	height:70vh;
+}
 	
 	.landing-block-title {
 		color:black;

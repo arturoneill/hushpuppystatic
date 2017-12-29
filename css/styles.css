@@ -523,12 +523,17 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	.landing-block-title {
 		color:black;
 		position:absolute;
-		top:20%;
+		top:10%;
 	}
 	
 	.landing-title-text {
 	background-color:lightgray;
 }
+	
+	.landing-title-text:hover, .landing-title-text:focus, .landing-title-text:active {
+		background-color:none;
+	}
+	
 	
 	.landing-block-title:hover, .landing-block-title:focus, .landing-block-title:active {
 		color:white;

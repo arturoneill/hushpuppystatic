@@ -35,14 +35,14 @@ body{
 
 
 .landing-block-title {
-	padding-top:15vh;
  align-items: center;
 	text-align:center;
 font-style:italic;
-	
 	text-decoration:none;
 	font-size:40px;
 	font-weight:800;
+	position:absolute;
+	top:40%;
 }
 
 .landing-block-title {

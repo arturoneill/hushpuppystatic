@@ -47,6 +47,11 @@ font-style:italic;
 	top:40%;
 }
 
+.landing-title-text {
+	padding-left:auto;
+	padding-right:auto;
+}
+
 .landing-block-title {
 	text-decoration:none;
 }
@@ -520,6 +525,10 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 		position:absolute;
 		top:20%;
 	}
+	
+	.landing-title-text {
+	background-color:lightgray;
+}
 	
 	.landing-block-title:hover, .landing-block-title:focus, .landing-block-title:active {
 		color:white;

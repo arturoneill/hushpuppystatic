@@ -38,6 +38,7 @@ body{
  align-items: center;
 	text-align:center;
 font-style:italic;
+
 	text-decoration:none;
 	font-size:40px;
 	font-weight:800;
@@ -45,6 +46,7 @@ font-style:italic;
 	padding-right:auto;
 	position:absolute;
 	top:40%;
+	width:100%;
 }
 
 .landing-title-text {
@@ -52,9 +54,7 @@ font-style:italic;
 	padding-right:auto;
 }
 
-.landing-block-title {
-	text-decoration:none;
-}
+
 
 .restaurant-landing {
 

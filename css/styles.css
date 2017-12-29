@@ -352,9 +352,12 @@ div>a:hover, div>a:focus, div>a:active {
 	
 	.landing-block-title {
 		color:black;
+		position:absolute;
+		top:40%;
 	}
 	
 		.landing-block1 {
+	position:relative;
 	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
@@ -364,6 +367,7 @@ div>a:hover, div>a:focus, div>a:active {
 }
 	
 .landing-block2 {
+	position:relative;
 	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
@@ -518,6 +522,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	}
 	
 	.landing-block1 {
+	position:relative;
 	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
@@ -526,6 +531,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	background-image:none;
 }
 	.landing-block2 {
+	position:relative;
 	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;

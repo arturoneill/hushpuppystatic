@@ -531,7 +531,7 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 }
 	
 	.landing-title-text:hover, .landing-title-text:focus, .landing-title-text:active {
-		background-color:none;
+		background:#333;
 	}
 	
 	
@@ -559,17 +559,16 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 }	
 	
 		.landing-block1:hover, .landing-block1:focus, .landing-block1:active {
-	/*opacity:0.3;*/
-	/*background: rgba(255, 255, 255, .8);*/
-	background:#75daff;
+
+	color:white;
+	background:none;
 	
 }
 
 .landing-block2:hover, .landing-block2:focus, .landing-block2:active {
-	/*opacity:0.3;*/
-	/*background: rgba(255, 255, 255, .8);*/
+
 	color:white;
-	background:#75daff;
+	background:none;
 	
 	
 #cyclist {

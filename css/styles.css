@@ -54,7 +54,15 @@ font-style:italic;
 	padding-right:auto;
 }
 
-
+.title-text {
+	font-weight:800;
+	padding-left:auto;
+	padding-right:auto;
+	text-align:center;
+	font-style:italic;
+	color:white;
+	background:#333;
+}
 
 .restaurant-landing {
 

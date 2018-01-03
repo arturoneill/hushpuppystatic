@@ -8,3 +8,11 @@
      $("#piperGisFrame").hover(function() {
                 $("#piperGisToggle").fadeToggle();
     });
+
+     $("#piperGisFrame").focus(function() {
+                $("#piperGisToggle").fadeToggle();
+    });
+
+     $("#piperGisFrame").click(function() {
+                $("#piperGisToggle").fadeToggle();
+    });

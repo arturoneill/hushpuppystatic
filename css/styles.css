@@ -449,6 +449,46 @@ div>a:hover, div>a:focus, div>a:active {
 	
 }
 	
+	#landingRestaurantFrame{
+	position:relative;
+	min-height:50%px;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+        background-position: center; 
+	background-image: url('/hushpuppystatic/images/circlelogogray.png');
+}
+		#landingRestaurantToggle{
+	position:relative;
+	min-height:50%px;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+        background-position: center; 
+	background-image: url('/hushpuppystatic/images/circlelogotransparent.png');
+	display:none;
+}
+		#landingErrandFrame{
+	position:relative;
+	min-height:50%px;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+        background-position: center; 
+	background-image: url('/hushpuppystatic/images/circlelogogray.png');
+}
+		#landingErrandToggle{
+	position:relative;
+	min-height:50%px;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+        background-position: center; 
+	background-image: url('/hushpuppystatic/images/circlelogotransparent.png');
+	display:none;
+}
+
+	
 	
 	
 	#cyclist {

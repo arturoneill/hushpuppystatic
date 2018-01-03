@@ -1,12 +1,4 @@
-   $(function() {
-        $("#imgPiperGis").hover(
-            function() {
-                $(this).attr("src", "images/pipergisweblogo.png");
-            },
-            function() {
-                $(this).attr("src", "images/pipergisweblogo.png");
-            }                         
-        );      
+   $(function() {   
            $("#imgDailyGreen").hover(
             function() {
                 $(this).attr("src", "images/dailygreenmouseover.png");
@@ -15,4 +7,15 @@
                 $(this).attr("src", "images/dailygreenweblogo.png");
             }                         
         ); 
+    });
+
+   $(function() {
+        $("#imgPiperGis").hover(
+            function() {
+                $(this).attr("src", "images/pipergisweblogo.png");
+            },
+            function() {
+                $(this).attr("src", "images/pipergisweblogo.png");
+            }                         
+        );  
     });

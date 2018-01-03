@@ -11,14 +11,14 @@
  $("#landingRestaurantFrame").hover(function() {
 	 if ($(window).width() >= 767){
     
-                $("#landingRestaurantToggle").fadeToggle("fast");
+                $("#landingRestaurantToggle").fadeToggle();
 	 }
      
     });
   $("#landingRestaurantFrame").click(function() {
 	   if ($(window).width() >= 767){
     
-                $("#landingRestaurantToggle").fadeToggle("fast");
+                $("#landingRestaurantToggle").fadeToggle();
 		    }
    
     });
@@ -26,14 +26,14 @@
   $("#landingErrandFrame").hover(function() {
 	   if ($(window).width() >= 767){
     	
-                $("#landingErrandToggle").fadeToggle("fast");
+                $("#landingErrandToggle").fadeToggle();
 		    }
     
     });
   $("#landingErrandFrame").click(function() {
 	   if ($(window).width() >= 767){
   
-                $("#landingErrandToggle").fadeToggle("fast");
+                $("#landingErrandToggle").fadeToggle();
 		    }
   
     });

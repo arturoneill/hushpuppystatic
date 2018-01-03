@@ -79,6 +79,7 @@ font-style:italic;
 	height:175px;
 	width:175px;
 	background-image: url('/hushpuppystatic/images/pipergisweblogo.png');
+	background-size: cover;
 }
 
 #piperGisToggle{
@@ -87,6 +88,7 @@ font-style:italic;
 	width:175px;
 	background-image: url('/hushpuppystatic/images/pipergismouseover.png');
 	display:none;
+	background-size: cover;
 }
 
 	

@@ -451,7 +451,7 @@ div>a:hover, div>a:focus, div>a:active {
 	
 	#landingRestaurantFrame{
 	position:relative;
-	min-height:50%px;
+	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -460,7 +460,7 @@ div>a:hover, div>a:focus, div>a:active {
 }
 		#landingRestaurantToggle{
 	position:relative;
-	min-height:50%px;
+	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -470,7 +470,7 @@ div>a:hover, div>a:focus, div>a:active {
 }
 		#landingErrandFrame{
 	position:relative;
-	min-height:50%px;
+	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -479,7 +479,7 @@ div>a:hover, div>a:focus, div>a:active {
 }
 		#landingErrandToggle{
 	position:relative;
-	min-height:50%px;
+	min-height:50%;
 	margin-bottom: 5px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;

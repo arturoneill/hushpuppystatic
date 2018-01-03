@@ -74,6 +74,21 @@ font-style:italic;
 
 }
 
+#piperGisFrame {
+	
+	height:175px;
+	width:175px;
+	background-image: url('/hushpuppystatic/images/pipergisweblogo.png');
+}
+
+#piperToggle{
+	
+	height:175px;
+	width:175px;
+	background-image: url('/hushpuppystatic/images/pipergismouseover.png');
+	display:none;
+}
+
 	
 	h1 {
     font-family: 'Nunito', sans-serif;

@@ -6,8 +6,5 @@
     });
 
      $("#imgPiperGis").hover(function() {
-                $(this).fadeTo("fast", "src", "images/pipergismouseover.png");
-            },
-          function() {
-                $(this).attr("src", "images/pipergisweblogo.png"); 
+                $("#piperGisToggle").fadeToggle();
     });

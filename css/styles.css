@@ -91,6 +91,23 @@ font-style:italic;
 	background-size: cover;
 }
 
+#dailyGreenFrame {
+	
+	height:175px;
+	width:175px;
+	background-image: url('/hushpuppystatic/images/dailygreenweblogo.png');
+	background-size: cover;
+}
+
+#dailyGreenToggle{
+	
+	height:175px;
+	width:175px;
+	background-image: url('/hushpuppystatic/images/dailygreenmouseover.png');
+	display:none;
+	background-size: cover;
+}
+
 	
 	h1 {
     font-family: 'Nunito', sans-serif;

@@ -5,6 +5,6 @@
                 $(this).attr("src", "images/dailygreenweblogo.png");
     });
 
-     $("#imgPiperGis").hover(function() {
+     $("#piperGisFrame").hover(function() {
                 $("#piperGisToggle").fadeToggle();
     });

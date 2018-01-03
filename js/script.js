@@ -1,17 +1,17 @@
    $(mouseover() {
         $("#imgPiperGis").hover(
-            function() {
+            mouseover() {
                 $(this).attr("src", "images/pipergisweblogo.png");
             },
-            function() {
+            mouseover() {
                 $(this).attr("src", "images/pipergisweblogo.png");
             }                         
         );      
            $("#imgDailyGreen").hover(
-            function() {
+            mouseover() {
                 $(this).attr("src", "images/dailygreenmouseover.png");
             },
-            function() {
+            mouseover() {
                 $(this).attr("src", "images/dailygreenweblogo.png");
             }                         
         ); 

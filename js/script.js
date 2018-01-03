@@ -1,21 +1,13 @@
-   $(dailyhover() {   
-           $("#imgDailyGreen").hover(
-            dailyhover() {
+   $("#imgDailyGreen").hover(function() {
                 $(this).attr("src", "images/dailygreenmouseover.png");
             },
-            dailyhover() {
+            function() {
                 $(this).attr("src", "images/dailygreenweblogo.png");
-            }                         
-        ); 
     });
 
-   $(piperhover() {
-        $("#imgPiperGis").hover(
-            piperhover() {
+     $("#imgPiperGis").hover(function() {
                 $(this).attr("src", "images/pipergisweblogo.png");
             },
-            piperhover() {
-                $(this).attr("src", "images/pipergisweblogo.png");
-            }                         
-        );  
+          function() {
+                $(this).attr("src", "images/pipergisweblogo.png"); 
     });

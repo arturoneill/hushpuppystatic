@@ -6,13 +6,13 @@
     });
 
      $("#piperGisFrame").hover(function() {
-                $("#piperGisToggle").fadeToggle();
+                $("#piperGisToggle").fadeToggle("fast");
     });
 
      $("#piperGisFrame").focus(function() {
-                $("#piperGisToggle").fadeToggle();
+                $("#piperGisToggle").fadeToggle("fast");
     });
 
      $("#piperGisFrame").click(function() {
-                $("#piperGisToggle").fadeToggle();
+                $("#piperGisToggle").fadeToggle("fast");
     });

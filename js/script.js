@@ -1,20 +1,20 @@
-   $(function() {   
+   $(dailyhover() {   
            $("#imgDailyGreen").hover(
-            function() {
+            dailyhover() {
                 $(this).attr("src", "images/dailygreenmouseover.png");
             },
-            function() {
+            dailyhover() {
                 $(this).attr("src", "images/dailygreenweblogo.png");
             }                         
         ); 
     });
 
-   $(function() {
+   $(piperhover() {
         $("#imgPiperGis").hover(
-            function() {
+            piperhover() {
                 $(this).attr("src", "images/pipergisweblogo.png");
             },
-            function() {
+            piperhover() {
                 $(this).attr("src", "images/pipergisweblogo.png");
             }                         
         );  

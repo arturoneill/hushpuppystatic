@@ -9,25 +9,25 @@
  
 		
 	} $("#landingRestaurantFrame").hover(function() {
-      if ($(window).width() >= 767){	
+    
                 $("#landingRestaurantToggle").fadeToggle("fast");
-      }
+     
     });
   $("#landingRestaurantFrame").click(function() {
-     if ($(window).width() >= 767){	
+    
                 $("#landingRestaurantToggle").fadeToggle("fast");
-     }
+   
     });
 
   $("#landingErrandFrame").hover(function() {
-     if ($(window).width() >= 767){	
+    	
                 $("#landingErrandToggle").fadeToggle("fast");
-     }
+    
     });
   $("#landingErrandFrame").click(function() {
-     if ($(window).width() >= 767){	
+  
                 $("#landingErrandToggle").fadeToggle("fast");
-     }
+  
     });
 
 //restaurant page fades

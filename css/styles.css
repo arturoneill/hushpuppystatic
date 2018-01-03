@@ -411,7 +411,7 @@ div>a:hover, div>a:focus, div>a:active {
 		top:40%;
 	}
 	
-		.landing-block1 {
+	/*	.landing-block1 {
 	position:relative;
 	min-height:50%;
 	margin-bottom: 5px;
@@ -430,10 +430,12 @@ div>a:hover, div>a:focus, div>a:active {
     background-position: center; 
 	background-image: url('/hushpuppystatic/images/circlelogogray.png');
 }
+	*/
+	
+	/*
 	
 	.landing-block1:hover, .landing-block1:focus, .landing-block1:active {
-	/*opacity:0.3;*/
-	/*background: rgba(255, 255, 255, .8);*/
+
 		background-attachment: fixed;
     background-position: center;
 	background-image: url('/hushpuppystatic/images/circlelogotransparent.png');
@@ -441,13 +443,14 @@ div>a:hover, div>a:focus, div>a:active {
 }
 
 .landing-block2:hover, .landing-block2:focus, .landing-block2:active {
-	/*opacity:0.3;*/
-	/*background: rgba(255, 255, 255, .8);*/
+	
 	background-attachment: fixed;
     background-position: center;
 	background-image: url('/hushpuppystatic/images/circlelogotransparent.png');
 	
 }
+	
+	*/
 	
 	#landingRestaurantFrame{
 	position:relative;

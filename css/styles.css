@@ -613,6 +613,14 @@ li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
 	height:60vh;
 }
 	
+	#landingRestaurantToggle{
+		display:none;
+	}
+	
+	#landingErrandToggle{
+		display:none;
+	}
+	
 	.landing-block-title {
 		color:black;
 		position:absolute;

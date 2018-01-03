@@ -5,6 +5,22 @@
            //     $(this).attr("src", "images/dailygreenweblogo.png");
   //  });
 
+//index page fades
+  $("#landingRestaurantFrame").hover(function() {
+                $("#landingRestaurantToggle").fadeToggle("fast");
+    });
+  $("#landingRestaurantFrame").click(function() {
+                $("#landingRestaurantToggle").fadeToggle("fast");
+    });
+
+  $("#landingErrandFrame").hover(function() {
+                $("#landingErrandToggle").fadeToggle("fast");
+    });
+  $("#landingErrandFrame").click(function() {
+                $("#landingErrandToggle").fadeToggle("fast");
+    });
+
+//restaurant page fades
 
     $("#dailyGreenFrame").hover(function() {
                 $("#dailyGreenToggle").fadeToggle("fast");

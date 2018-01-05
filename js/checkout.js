@@ -1,6 +1,6 @@
 (function() {
   'use strict';
-var stripe = Stripe('pk_test_gyot0TZuR1prf8F5OXTJSjBQ');
+var stripe = Stripe('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
   var elements = stripe.elements({
     fonts: [
       {

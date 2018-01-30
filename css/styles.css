@@ -343,6 +343,7 @@ footer {
 	
 footer.about-footer div {
 	background-color:#75daff;
+	min-height: 200px;
 	
 }
 

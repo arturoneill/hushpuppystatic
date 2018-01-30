@@ -339,7 +339,7 @@ footer {
     color: black;
 }
 
-#nav-list.li:hover, #nav-list.li:focus, #nav-list.li:active {
+#nav-list li:hover, #nav-list li:focus, #nav-list li:active {
     background-color: #75daff;
 	
 
@@ -510,19 +510,19 @@ div>a:hover, div>a:focus, div>a:active {
 	   
 	}
 	
-#nav-list.li:hover:nth-child(1), #nav-list.li:focus:nth-child(1), #nav-list.li:active:nth-child(1) {
+#nav-list li:hover:nth-child(1), #nav-list li:focus:nth-child(1), #nav-list li:active:nth-child(1) {
         background-color:#75daff;
         color: white;
 	   
     
 }
-   #nav-list.li:hover:nth-child(2), #nav-list.li:focus:nth-child(2), #nav-list.li:active:nth-child(2) {
+   #nav-list li:hover:nth-child(2), #nav-list li:focus:nth-child(2), #nav-list li:active:nth-child(2) {
         background-color:fuchsia;
         color: white;
 	   opacity:0.75;
     
 }
-        #nav-list.li:hover:nth-child(3), #nav-list.li:focus:nth-child(3), #nav-list.li:active:nth-child(3) {
+        #nav-list li:hover:nth-child(3), #nav-list li:focus:nth-child(3), #nav-list li:active:nth-child(3) {
         background-color:red;
         color: white;
 		opacity:0.75;

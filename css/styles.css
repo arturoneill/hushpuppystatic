@@ -336,6 +336,12 @@ footer {
     overflow:hidden;*/
 }
 
+.about-footer {
+	min-height: 200px;
+	background-color:#75daff;
+	font-weight:600;
+}
+
 
 /*-----------------Header----------------------------------------------------------------------*/
 #header-nav{

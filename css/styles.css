@@ -194,8 +194,11 @@ font-style:italic;
 	font-size:14px;
 }
 
-
-/* Modal stuffs  */
+.white-shadow-text{
+	text-shadow: 2px 2px 0px white;
+	color:black;
+}
+/* ----------------------------Modal stuffs ------------------------------------------------------------------- */
 
 button.modal-button{
 	background-color:transparent;

@@ -340,7 +340,7 @@ footer {
 	min-height: 200px;
 	font-weight:600;
 	
-.about-footer>.row {
+.about-footer .row {
 	background-color:#75daff;
 	
 }

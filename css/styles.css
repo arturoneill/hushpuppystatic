@@ -211,6 +211,9 @@ button.modal-button{
 	border:0px;
 	font-size:24px;
 	font-weight:800;
+	text-align:center;
+	vertical-align:middle;
+	
 }
 /*button.modal-button:hover, button.modal-button:focus, button.modal-button:active {
     background-color: #ff3b9d;

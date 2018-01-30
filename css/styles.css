@@ -625,7 +625,7 @@ div>a:hover, div>a:focus, div>a:active {
     background-attachment: fixed;
     background-position: center; 
 	background-image:none;
-		max-width:90%;
+		max-width:100%;
 }
 	.landing-block2 {
 	position:relative;
@@ -635,7 +635,7 @@ div>a:hover, div>a:focus, div>a:active {
     background-attachment: fixed;
     background-position: center; 
 	background-image:none;
-		max-width:90%;
+		max-width:100%;
 }	
 	
 		.landing-block1:hover, .landing-block1:focus, .landing-block1:active {

@@ -441,7 +441,7 @@ div>a:hover, div>a:focus, div>a:active {
 @media screen and (min-width: 767px){
 	
 	
-	div.social-button {
+	.social-wrapper {
 	
         text-align:right;
 		

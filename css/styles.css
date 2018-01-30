@@ -136,6 +136,22 @@ font-style:italic;
 	width:100%;
 }
 
+.about-block-title {
+	
+align-items: center;
+text-align:center;
+font-style:italic;
+
+	text-decoration:none;
+	font-size:40px;
+	font-weight:800;
+	padding-left:auto;
+	padding-right:auto;
+	position:absolute;
+	top:40%;
+	width:100%;
+}
+
 .landing-title-text {
 	padding-left:auto;
 	padding-right:auto;

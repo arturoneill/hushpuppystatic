@@ -216,13 +216,15 @@ button.modal-button{
 	font-weight:800;
 	text-align:center;
 	vertical-align:middle;
+	white-space: nowrap;
+	padding: 5px 10px;
 	
 }
 /*button.modal-button:hover, button.modal-button:focus, button.modal-button:active {
     background-color: #ff3b9d;
 }*/
 
-.button-div:hover, .button-div:focus {
+button.modal-button:hover, button.modal-button:focus {
 	background-color: #ff3b9d;
 }
 	
@@ -232,6 +234,7 @@ form.modal-button{
 	border:0px;
 	font-size:24px;
 	font-weight:800;
+	
 }
 
 form>input{

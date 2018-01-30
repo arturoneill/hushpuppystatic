@@ -498,11 +498,11 @@ div>a:hover, div>a:focus, div>a:active {
   
         }
    
-     li {
+   /*  li {
         color:black;
 	     font-style: italic;
         
-    }
+    }*/
 	
  .navbar-nav ul li a:hover, .navbar-nav ul li a:focus, .navbar-nav ul li a:active {
 	   color:white;
@@ -510,19 +510,19 @@ div>a:hover, div>a:focus, div>a:active {
 	   
 	}
 	
-li:hover:nth-child(1), li:focus:nth-child(1), li:active:nth-child(1) {
+#nav-list.li:hover:nth-child(1), #nav-list.li:focus:nth-child(1), #nav-list.li:active:nth-child(1) {
         background-color:#75daff;
         color: white;
 	   
     
 }
-   li:hover:nth-child(2), li:focus:nth-child(2), li:active:nth-child(2) {
+   #nav-list.li:hover:nth-child(2), #nav-list.li:focus:nth-child(2), #nav-list.li:active:nth-child(2) {
         background-color:fuchsia;
         color: white;
 	   opacity:0.75;
     
 }
-        li:hover:nth-child(3), li:focus:nth-child(3), li:active:nth-child(3) {
+        #nav-list.li:hover:nth-child(3), #nav-list.li:focus:nth-child(3), #nav-list.li:active:nth-child(3) {
         background-color:red;
         color: white;
 		opacity:0.75;

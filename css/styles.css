@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -254,8 +254,8 @@ button.modal-button{
 	text-align:center;
 	vertical-align:middle;
 	white-space: nowrap;
-	padding: 4px 20px;
-	margin-bottom:10px;
+	padding: 2px 20px;
+	margin-bottom:20px;
 	
 }
 /*button.modal-button:hover, button.modal-button:focus, button.modal-button:active {

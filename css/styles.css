@@ -339,7 +339,7 @@ footer {
     color: black;
 }
 
-li:hover, li:focus, li:active {
+#nav-list.li:hover, #nav-list.li:focus, #nav-list.li:active {
     background-color: #75daff;
 	
 

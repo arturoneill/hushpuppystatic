@@ -204,6 +204,9 @@ font-style:italic;
 	color:black;
 	font-weight:800;
 }
+.button-div {	
+ text-align: center;	
+	}
 /* ----------------------------Modal stuffs ------------------------------------------------------------------- */
 
 button.modal-button{

@@ -338,10 +338,11 @@ footer {
 
 .about-footer {
 	min-height: 200px;
-	background-color:#75daff;
 	font-weight:600;
-	padding-left:5px;
-	padding-right:5px;
+	
+.about-footer>.row {
+	background-color:#75daff;
+	
 }
 
 

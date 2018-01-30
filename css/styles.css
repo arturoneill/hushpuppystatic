@@ -107,7 +107,7 @@ margin-left:10px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('/hushpuppystatic/images/groupshotbw.jpg');
+	background-image: url('/hushpuppystatic/images/groupshotbw.JPG');
 }
 
 
@@ -139,6 +139,8 @@ font-style:italic;
 .landing-title-text {
 	padding-left:auto;
 	padding-right:auto;
+	color:white;
+	background:#333;
 }
 
 .title-text {

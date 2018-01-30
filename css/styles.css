@@ -120,6 +120,11 @@ margin-left:10px;
 	
 }
 
+.top-bar {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 .landing-block-title {
 	
 align-items: center;

@@ -244,6 +244,11 @@ font-style:italic;
 .button-div {	
  text-align: center;	
 	}
+
+.social-button {
+	margin-top:10px;
+	padding-left:0px;
+}
 /* ----------------------------Modal stuffs ------------------------------------------------------------------- */
 
 button.modal-button{
@@ -436,7 +441,11 @@ div>a:hover, div>a:focus, div>a:active {
 @media screen and (min-width: 767px){
 	
 	
+	div.social-button {
 	
+        text-align:right;
+		
+}
 
 	
 	.landing-block-title {

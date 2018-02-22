@@ -23,6 +23,7 @@ $(document).ready(function() {
                         regexp: /^(?!\s)[A-z ]+$/,
                         message: 'Name can only accept alphabetical input'
                     }
+                    
                 }
             },
             phoneNumber: {

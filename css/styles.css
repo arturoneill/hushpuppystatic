@@ -64,7 +64,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/pipergisweblogo.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/pipergisweblogo.png');
 	background-size: cover;
 }
 
@@ -72,7 +72,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/pipergismouseover.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/pipergismouseover.png');
 	display:none;
 	background-size: cover;
 }
@@ -81,7 +81,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/dailygreenweblogo.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/dailygreenweblogo.png');
 	background-size: cover;
 }
 
@@ -89,7 +89,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/dailygreenmouseover.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/dailygreenmouseover.png');
 	display:none;
 	background-size: cover;
 }
@@ -108,7 +108,7 @@ margin-left:10px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/groupshotbw.JPG');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/groupshotbw.JPG');
 }
 
 
@@ -462,7 +462,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogogray.png');
 }
 	
 .landing-block2 {
@@ -472,7 +472,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogogray.png');
 }
 	*/
 	
@@ -482,7 +482,7 @@ div>a:hover, div>a:focus, div>a:active {
 
 		background-attachment: fixed;
     background-position: center;
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/images/circlelogotransparent.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogotransparent.png');
 	
 }
 
@@ -490,7 +490,7 @@ div>a:hover, div>a:focus, div>a:active {
 	
 	background-attachment: fixed;
     background-position: center;
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/images/circlelogotransparent.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogotransparent.png');
 	
 }
 	
@@ -503,7 +503,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogogray.png');
 }
 		#landingRestaurantToggle{
 	position:relative;
@@ -512,7 +512,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogotransparent.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogotransparent.png');
 	display:none;
 }
 		#landingErrandFrame{
@@ -522,7 +522,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogogray.png');
 }
 	
 		#landingErrandToggle{
@@ -532,7 +532,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogotransparent.png');
+	background-image: url('https://arturoneill.github.io/hushpuppystatic/images/circlelogotransparent.png');
 	display:none;
 }
 
@@ -549,7 +549,7 @@ div>a:hover, div>a:focus, div>a:active {
     border-radius:50%;
     margin-top: -60px; /*set to a negative number 1/2 of your height*/
     margin-left: -60px; /*set to a negative number 1/2 of your width*/
-   background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/pictures/hushpuppydude.png');
+   background-image: url('https://arturoneill.github.io/couriersite/images/hushpuppydude.png');
     background-color: white;
     position:fixed;
 

@@ -64,7 +64,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('/images/pipergisweblogo.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/pipergisweblogo.png');
 	background-size: cover;
 }
 
@@ -72,7 +72,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('/images/pipergismouseover.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/pipergismouseover.png');
 	display:none;
 	background-size: cover;
 }
@@ -81,7 +81,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('/images/dailygreenweblogo.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/dailygreenweblogo.png');
 	background-size: cover;
 }
 
@@ -89,7 +89,7 @@ margin-left:10px;
 	
 	height:175px;
 	width:175px;
-	background-image: url('/images/dailygreenmouseover.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/dailygreenmouseover.png');
 	display:none;
 	background-size: cover;
 }
@@ -108,7 +108,7 @@ margin-left:10px;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('/images/groupshotbw.JPG');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/groupshotbw.JPG');
 }
 
 
@@ -462,7 +462,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-	background-image: url('/hushpuppystatic/images/circlelogogray.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
 }
 	
 .landing-block2 {
@@ -472,7 +472,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
-	background-image: url('/hushpuppystatic/images/circlelogogray.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
 }
 	*/
 	
@@ -482,7 +482,7 @@ div>a:hover, div>a:focus, div>a:active {
 
 		background-attachment: fixed;
     background-position: center;
-	background-image: url('/hushpuppystatic/images/circlelogotransparent.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/images/circlelogotransparent.png');
 	
 }
 
@@ -490,7 +490,7 @@ div>a:hover, div>a:focus, div>a:active {
 	
 	background-attachment: fixed;
     background-position: center;
-	background-image: url('/hushpuppystatic/images/circlelogotransparent.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/images/circlelogotransparent.png');
 	
 }
 	
@@ -503,7 +503,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('/images/circlelogogray.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
 }
 		#landingRestaurantToggle{
 	position:relative;
@@ -512,7 +512,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('/images/circlelogotransparent.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogotransparent.png');
 	display:none;
 }
 		#landingErrandFrame{
@@ -522,7 +522,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('/images/circlelogogray.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogogray.png');
 }
 	
 		#landingErrandToggle{
@@ -532,7 +532,7 @@ div>a:hover, div>a:focus, div>a:active {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
         background-position: center; 
-	background-image: url('/images/circlelogotransparent.png');
+	background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/images/circlelogotransparent.png');
 	display:none;
 }
 

@@ -1,8 +1,8 @@
    //$("#imgDailyGreen").hover(function() {
-     //           $(this).attr("src", "images/dailygreenmouseover.png");
+     //           $(this).attr("src", "https://github.com/arturoneill/hushpuppystatic/tree/master/images/dailygreenmouseover.png");
        //     },
          //   function() {
-           //     $(this).attr("src", "images/dailygreenweblogo.png");
+           //     $(this).attr("src", "https://github.com/arturoneill/hushpuppystatic/tree/master/images/dailygreenweblogo.png");
   //  });
 
 //index page fades

@@ -549,7 +549,7 @@ div>a:hover, div>a:focus, div>a:active {
     border-radius:50%;
     margin-top: -60px; /*set to a negative number 1/2 of your height*/
     margin-left: -60px; /*set to a negative number 1/2 of your width*/
-   background-image: url('/courier-app/pictures/hushpuppydude.png');
+   background-image: url('https://github.com/arturoneill/hushpuppystatic/tree/master/pictures/hushpuppydude.png');
     background-color: white;
     position:fixed;
 
